@@ -15,7 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/D/', function () {
+Route::get('/de/', function () {
+    echo 'de';
     return view('welcome');
 });
 
