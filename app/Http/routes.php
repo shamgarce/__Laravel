@@ -11,12 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome/', function () {
     return view('welcome');
 });
 
-Route::get('/de/', function () {
-    echo 'de';
-    return view('welcome');
-});
+Route::controller('blog','BlogController');
+
+
+//
+//Route::get('/de/', function () {
+//    echo 'd123e';
+//    return view('user/welcome');
+//    //return view('welcome');
+//});
 
