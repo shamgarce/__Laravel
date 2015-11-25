@@ -16,6 +16,7 @@ Route::get('/welcome/', function () {
 });
 
 Route::controller('blog','BlogController');
+Route::controller('as','AsController');
 
 
 //

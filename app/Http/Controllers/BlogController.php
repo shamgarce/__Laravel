@@ -4,10 +4,15 @@ namespace App\Http\Controllers;
 
 class BlogController extends Controller {
 
-public function getIndex()
-{
-      echo 123;
-}
+      public function getIndex()
+      {
+            var_dump($this);
+      }
+
+      public function getI()
+      {
+            echo 666;
+      }
 
 
 
