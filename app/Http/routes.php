@@ -17,12 +17,11 @@ Route::get('/welcome/', function () {
 
 Route::controller('blog','BlogController');
 Route::controller('as','AsController');
+Route::controller('login','LoginController');
 
 
-//
-//Route::get('/de/', function () {
-//    echo 'd123e';
-//    return view('user/welcome');
+//Route::get('/login/', function () {
+//    return view('welcome');
 //    //return view('welcome');
 //});
 

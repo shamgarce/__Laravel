@@ -2,15 +2,16 @@
 //file: app/controllers/BlogController.php
 namespace App\Http\Controllers;
 
-class AsController extends Controller {
+class AsController extends AsBaseController {
 
 
-      public function __construct()
-      {
-            $this->middleware('dos');
-//            $this->middleware('log', ['only' => ['fooAction', 'barAction']]);
-//            $this->middleware('subscribed', ['except' => ['fooAction', 'barAction']]);
-      }
+//      public function __construct()
+//      {
+//            echo 123;
+//            $this->middleware('dos');
+////            $this->middleware('log', ['only' => ['fooAction', 'barAction']]);
+////            $this->middleware('subscribed', ['except' => ['fooAction', 'barAction']]);
+//      }
 
       public function getIndex()
       {
